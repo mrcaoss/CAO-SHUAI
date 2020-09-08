@@ -1,0 +1,42 @@
+.login-reg-box{
+    position: absolute;
+    width: 400px;
+    height: 310px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: #fff;
+    padding: 20px;
+}
+.title-box{
+    height: 60px;
+    background:url('../images/login_title.png') no-repeat center ;
+}
+/* 默认注册盒子影藏 */
+.reg-box{
+    display: none;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+.layui-form-item{
+    position: relative;
+}
+.layui-form-item i{
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.layui-input{
+    padding: 32px;
+}
+.bgc{
+    float: right;
+    background-color: skyblue;
+    height: 35px;
+    width: 100px;
+}
+

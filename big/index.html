@@ -24,7 +24,85 @@
     <div class="layui-main">
         <img src="./neirong/images/logo.png" alt="无法打开">
     </div>
+    <!-- 表单容器 -->
+    <div class="login-reg-box">
+        <!-- title -->
+        <div class="title-box">
 
+        </div>
+
+        <!-- 表单 -->
+
+        <!-- 注册表单 -->
+
+        <!-- 登录盒子 -->
+        <div class="login-box">
+            <!-- 登录表单 -->
+            <form class="layui-form-item">
+                <div class="layui-form-item">
+                    <!-- 人形图标 -->
+                    <i class="layui-icon layui-icon-username"></i>
+                    <input type="text" name="username" required lay-verify="required" placeholder="请输入名"
+                        autocomplete="off" class="layui-input" />
+                </div>
+                <!-- 密码 -->
+                <div class="layui-form-item">
+                    <!-- 锁型图标 -->
+                    <i class="layui-icon layui-icon-password"></i>
+                    <input type="password" name="password" required lay-verify="required|password" placeholder="请输密码"
+                        autocomplete="off" class="layui-input" />
+                </div>
+
+                <!-- 提交按钮
+                    lay-submit表示该按钮为表单的提交按钮
+                    按钮+蓝色 ，layui-btn layui-btn-normal-->
+
+                <div class="layui-form-item">
+                    <button class="layui-btn layui-btn-normal layui-btn-fluid" lay-submit>
+                        登录
+                    </button>
+                </div>
+                <div class="bgc">
+                    <div class="layui-form-item links">
+                        <a href="javascript:" id="link-login">去注册账号</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="reg-box">
+            <!-- 注册表单 -->
+            <form class="layui-form">
+                <!-- 用户名 -->
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-username"></i>
+                    <input type="text" id="reg-username" name="username" required lay-verify="required"
+                        placeholder="请输入用户名" autocomplete="off" class="layui-input" />
+                </div>
+                <!-- 密码 -->
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-password"></i>
+                    <input type="password" id="reg-username" name="username" required lay-verify="required"
+                        placeholder="请输入密码" autocomplete="off" class="layui-input" />
+                </div>
+                <!-- 再次输入密码 -->
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-password"></i>
+                    <input type="password" name="password" required lay-verify="required|password|repassword"
+                        placeholder="确认密码" autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-item">
+                    <button id="reg-btn" class="layui-btn layui-btn-normal layui-btn-fluid" lay-submit>立即注册</button>
+                </div>
+                <div class="bgc">
+                    <div class="layui-form-item links">
+                        <a id="link-reg" href="javascript:">去登陆</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
