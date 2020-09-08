@@ -25,13 +25,13 @@
     position: relative;
 }
 .layui-form-item i{
-    font-size: 24px;
+    font-size: 16px;
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 10px;
+    top: 10px;
 }
 .layui-input{
-    padding: 32px;
+    padding-left: 32px;
 }
 .bgc{
     float: right;
