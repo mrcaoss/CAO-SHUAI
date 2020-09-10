@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./neirong/css/login1.css">
     <script src="./neirong/lib/jquery.js"></script>
     <script src="./neirong/lib/layui/layui.all.js"></script>
+    <script src="./neirong/js/util.js"></script>
     <script src="./neirong/js/login.js"></script>
 </head>
 
@@ -27,14 +28,9 @@
     <!-- 表单容器 -->
     <div class="login-reg-box">
         <!-- title -->
-        <div class="title-box">
-
-        </div>
-
+        <div class="title-box"></div>
         <!-- 表单 -->
-
         <!-- 注册表单 -->
-
         <!-- 登录盒子 -->
         <div class="login-box">
             <!-- 登录表单 -->
@@ -83,7 +79,7 @@
                 <!-- 密码 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
-                    <input type="password" id="reg-username" name="username" required lay-verify="required"
+                    <input type="password" id="reg-username" name="username" required lay-verify="required|password"
                         placeholder="请输入密码" autocomplete="off" class="layui-input" />
                 </div>
                 <!-- 再次输入密码 -->
